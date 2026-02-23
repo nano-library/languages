@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Worksheet</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        window.MathJax = {
+            options: { enableMenu: false }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    <link rel="stylesheet" href="../../style.css"/>
+</head>
+<body>
+    <div id="navigation">
+        <nav class="concept-nav" aria-label="Concept navigation">
+            <a class="nav-btn prev" href="" rel="prev">\(\leftarrow\)</a>
+
+            <a class="nav-btn home" href="../french-iv.html">Contents</a>
+
+            <a class="nav-btn next" href="" rel="next">\(\rightarrow\)</a>
+        </nav>
+    </div>
+    <div id="title">
+        <h1>Worksheet</h1>
+        <hr>
+    </div>
+    <div id="chapter">
+         <script>
+        document.addEventListener("click", (e) => {
+            const b = e.target.closest("[data-answer]");
+            if (!b) return;
+            const shown = b.getAttribute("data-shown") === "true";
+            b.textContent = shown ? "____" : b.getAttribute("data-answer");
+            b.setAttribute("data-shown", shown ? "false" : "true");
+        });
+        </script>
+
+        <h4>1. Complétez avec « aller »</h4>
+
+        <p>Pierre <em><span data-answer="va">____</span></em> visiter ses grands-parents ce weekend.</p>
+        <p>Tu <em><span data-answer="vas">____</span></em> faire tes devoirs après le cours.</p>
+        <p>Thomas et moi <em><span data-answer="allons">____</span></em> jouer au football demain.</p>
+        <p>Mes parents <em><span data-answer="vont">____</span></em> regarder un film ce soir.</p>
+
+        <h4>2. Futur proche avec les verbes donnés</h4>
+
+        <p>Attention ! Il <em><span data-answer="va pleuvoir">____</span></em> demain.</p>
+        <p>Nous <em><span data-answer="allons regarder">____</span></em> un film ce soir.</p>
+        <p>Vous <em><span data-answer="allez arriver">____</span></em> à la maison à 18h.</p>
+        <p>Je <em><span data-answer="vais manger">____</span></em> une pizza ce soir.</p>
+        <p>Tu <em><span data-answer="vas te doucher">____</span></em> avant ou après le petit-déjeuner ?</p>
+        <p>Ils <em><span data-answer="vont partir">____</span></em> en vacances en juillet.</p>
+
+        <h4>3. Mettez dans l'ordre</h4>
+
+        <p>a. <em><span data-answer="Je ne vais pas passer le week-end à la maison.">____</span></em></p>
+        <p>b. <em><span data-answer="Mon père va visiter un monument demain.">____</span></em></p>
+        <p>c. <em><span data-answer="Nous allons partir en vacances avec nos cousins.">____</span></em></p>
+        <p>d. <em><span data-answer="Ma mère ne va pas préparer le dîner ce soir.">____</span></em></p>
+        <p>e. <em><span data-answer="Leurs enfants vont aller au parc dimanche.">____</span></em></p>
+
+        <h4>4. Lettre - adjectifs possessifs</h4>
+
+        <p>
+        Je vais te parler de <em><span data-answer="ma">____</span></em> famille, 
+        de <em><span data-answer="mes">____</span></em> loisirs et de <em><span data-answer="mes">____</span></em> projets.
+        Dans <em><span data-answer="ma">____</span></em> famille, il y a <em><span data-answer="mon">____</span></em> père,
+        <em><span data-answer="ma">____</span></em> mère et <em><span data-answer="mes">____</span></em> deux frères.
+        <em><span data-answer="Mon">____</span></em> père aime le sport et 
+        <em><span data-answer="sa">____</span></em> passion est le football.
+        <em><span data-answer="Ma">____</span></em> mère préfère lire pendant 
+        <em><span data-answer="son">____</span></em> temps libre.
+        Moi, j'adore jouer au badminton avec <em><span data-answer="mes">____</span></em> amis.
+        Le weekend, nous faisons souvent <em><span data-answer="nos">____</span></em> activités préférées.
+        Pour les vacances, <em><span data-answer="mes">____</span></em> parents vont visiter 
+        <em><span data-answer="leur">____</span></em> village et moi, je vais passer du temps avec 
+        <em><span data-answer="mes">____</span></em> cousins.
+        Ce sont <em><span data-answer="mes">____</span></em> projets pour cet été.
+        Et toi, quels sont <em><span data-answer="tes">____</span></em> projets ?
+        </p>
+
+        <h4>5. Arbre généalogique</h4>
+
+        <h4>Arbre généalogique</h4>
+
+<ul>
+  <li>
+    Martin (grand-père)
+    <ul>
+      <li>
+        Bénédicte (grand-mère)
+        <ul>
+          <li>
+            Agathe
+            <ul>
+              <li>Pierre (mari)</li>
+              <li>
+                Enfants:
+                <ul>
+                  <li>Jules</li>
+                  <li>Pauline</li>
+                  <li>Sophie</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            Alexandre
+          </li>
+
+          <li>
+            Marie
+            <ul>
+              <li>Sylvain (mari)</li>
+              <li>
+                Enfants:
+                <ul>
+                  <li>Matthieu</li>
+                  <li>Louise</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+        <p>Martin est le <em><span data-answer="grand-père">____</span></em> de Matthieu.</p>
+        <p>Agathe a trois <em><span data-answer="enfants">____</span></em> : un <em><span data-answer="fils">____</span></em> et deux <em><span data-answer="filles">____</span></em>.</p>
+        <p>Marie est la <em><span data-answer="tante">____</span></em> de Sophie.</p>
+        <p>Pauline est la <em><span data-answer="nièce">____</span></em> de Sylvain.</p>
+        <p>Matthieu est le <em><span data-answer="neveu">____</span></em> de Pierre.</p>
+        <p>Alexandre est l'<em><span data-answer="oncle">____</span></em> de Jules.</p>
+    </div>
+</body>
+</html>
